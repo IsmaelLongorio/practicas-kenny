@@ -1,0 +1,67 @@
+/*documento css*/
+*{margin: 0px;
+padding: 0px;}
+
+body {background-color: rgb(84, 84, 136);}
+
+h1 {text-align: center;}
+
+h2 {padding-bottom: 8px;}
+
+.cabecera {min-height: 80px;
+border-bottom: 2px solid black;}
+
+.cuerpo {width: 100%;}
+
+.container p {font-size: 1.3em;
+padding-bottom: 16px;}
+
+.container {width: 80%;
+    padding-top: 80px;
+    margin: 0px auto;
+display: flex;}
+
+    .items {width: 50%;
+    padding: 16px;
+box-sizing: border-box;}
+
+.items input, textarea {width: 100%;
+padding: 8px;
+margin-bottom: 8px;}
+
+textarea {max-width: 100%;
+     min-width: 100%;
+      min-height: 120px; 
+      max-height: 120px;}
+
+.items a {display: block;
+width: 120px;
+padding: 16px;
+background-color: #25D336;
+background: linear-gradient(180deg, rgba(37,211,54,1) 53%, rgba(181,255,0,0.13489145658263302) 100%);
+text-align: center;
+color:aliceblue;
+text-decoration: none;
+border-radius: 8px;}
+
+.items a:hover {background-color: rgb(137, 41, 41);}
+.items a:active {background-color: black;}
+
+input .btn {width: 120px;}
+
+.items input::placeholder,textarea::placeholder {color: rgb(59, 110, 55);}
+
+.container::before,.container::after {   content: ""; 
+                                         display: block; 
+                                         width: 60px; 
+                                         height: 60px; 
+                                         background: url(../img/send.svg);
+                                         background-repeat: no-repeat; 
+                                         background-size: 100% 100%;
+                                         position: relative;
+                                         top: -15px;
+                                         left: -15px; }
+
+div.container::after {position: relative; 
+                     top: -15px; 
+                     left: -15px; }

@@ -1,0 +1,23 @@
+/*Documento css*/
+
+
+
+h1 {font-family: "Mulish", sans-serif;
+text-align: center;}
+
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.cabecera {margin-bottom: 32px;}
+
+.tablas {margin: 32px;
+min-height: 1px; 
+padding: 16px 0px;
+background-color: aqua;}
+
+div.tablas {background-color: blueviolet;
+margin-bottom: 300px;}
+
+.tablas table {margin: auto;}
+
+.pie {background-color: aqua;
+text-align: center;}
